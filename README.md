@@ -4,7 +4,7 @@ This is an extension that allows you to browser imgur from countries and ISPs wh
 
 ## Installation
 
-Download or clone the repo, pack the extension yourself or use the provided crx file. To using crx file:
+Download or clone the repo, pack the extension yourself or use the provided crx file. To install using crx file:
 
 * Navigate to [chrome://extensions/](chrome://extensions/)
 * Enable developer mode on top right corner
