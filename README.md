@@ -1,6 +1,6 @@
 # Imgur to 0Imgur Redirector For Chrome Browser
 
-This is an extension that allows you to brows imgur from countries and ISPs where imgur blocked. Also works for embedded imgur links on all pages.
+This is an extension that allows you to browse imgur from countries and ISPs where imgur is blocked. Also works for embedded imgur image links on all pages.
 
 ## Installation
 
