@@ -1,0 +1,30 @@
+{
+   "background": {
+      "scripts": [ "popup.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "icon16.png",
+         "24": "icon24.png",
+         "32": "icon32.png"
+      },
+      "default_title": "imgur to 0imgur"
+   },
+    "content_scripts": [
+      {
+        "matches": [
+          "*://*/*"
+        ],
+        "js": [
+          "content.js"
+        ],
+        "run_at": "document_idle",
+        "all_frames": true
+      }
+    ],
+   "description": "This extension redirects all imgur URLs to 0imgur, so you can access it from restricted countries and / or ISPs. Also works with embedded images on other web sites.",
+   "manifest_version": 2,
+   "name": "Imgur to 0Imgur",
+   "permissions": [ "tabs" ],
+   "version": "1"
+}
